@@ -5,15 +5,15 @@ sudo pacman -Syu
 
 # System
 
-sudo pacman -S git base-devel ntfs-3g core/linux-api-headers python-pip gcc evtest
+sudo pacman -S git base-devel ntfs-3g core/linux-api-headers python-pip gcc evtest --noconfirm
 
 # Tools
 
-sudo pacman -S gparted spectacle libreoffice-fresh unzip code docker-compose docker
+sudo pacman -S gparted spectacle libreoffice-fresh unzip code docker-compose docker --noconfirm
 
 # Aparience
 
-sudo pacman -S zsh-completions zsh latte-dock neofetch ttf-fira-code
+sudo pacman -S zsh-completions zsh latte-dock neofetch ttf-fira-code --noconfirm
 
 # Git
 
