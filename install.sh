@@ -17,7 +17,7 @@ sudo pacman -S zsh-completions zsh latte-dock neofetch ttf-fira-code --noconfirm
 
 # Git
 
-set -- slack-desktop google-chrome obinskit balena-etcher snapd
+set -- slack-desktop google-chrome obinskit balena-etcher snapd ulaucher
 while [ $# -gt 0 ]
 do
         git clone https://aur.archlinux.org/$1
