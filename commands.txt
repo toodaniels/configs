@@ -1,0 +1,2 @@
+# pacmd set-card-profile <> headset_head_unit 
+# pacmd set-card-profile <> a2dp_sink    
