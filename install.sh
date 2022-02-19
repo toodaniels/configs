@@ -22,9 +22,9 @@ while [ $# -gt 0 ]
 do
         git clone https://aur.archlinux.org/$1
         cd $1
-        makepkg -is
+        makepkg -is --noconfirm
         cd ..
-        rm -R $1
+        sudo rm -R $1
         shift;
 done
 
