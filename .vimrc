@@ -1,8 +1,6 @@
-"set number
 set mouse=a
 set numberwidth=1
 set clipboard=unnamedplus
-"set clipboard=unnamed
 set guioptions+=a
 syntax enable
 set showcmd
@@ -16,7 +14,6 @@ set cursorline
 set cursorcolumn
 
 set tabstop=4
-"set shiftwidth=2
 set colorcolumn=79
 "set expandtab
 set number relativenumber
