@@ -16,7 +16,7 @@ source $ZSH/oh-my-zsh.sh
  #PS1='$(git_custom_status)% [%1d] $ '
 #PROMPT=${PROMPT/\%c/\%~}
 
-export GIT_EDITOR=nvim
+export GIT_EDITOR=vim
 
 alias root='su - root'
 alias update='sudo pacman -Syu'
