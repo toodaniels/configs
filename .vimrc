@@ -43,6 +43,8 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'preservim/nerdcommenter'
 Plug 'Yggdroot/indentLine'
 Plug 'pseewald/vim-anyfold'
+Plug 'nvie/vim-flake8'
+"Plug 'vim-syntastic/syntastic'
 
 call plug#end()
 
@@ -55,7 +57,19 @@ syntax on
 let g:airline_theme='onedark'
 colorscheme OceanicNext "onedark
 
-let g:closetag_filenames = '*.html,*.js,*.jsx,*.ts,*.tsx'
+"execute pathogen#infect()
+"let g:syntastic_python_checkers=['flake8']
+
+"set statusline+=%#warningmsg#
+"set statusline+=%{SyntasticStatuslineFlag()}
+"set statusline+=%*
+"let g:syntastic_always_populate_loc_list=1
+"let g:syntastic_auto_loc_list=1
+"let g:syntastic_check_on_open=1
+"let g:syntastic_check_on_wq=0
+
+let g:closetag_filenames='*.html,*.js,*.jsx,*.ts,*.tsx'
+au VimEnter *  NERDTree
 
 let mapleader=" "
 nmap <Leader>s <Plug>(easymotion-s2)
